@@ -13,6 +13,8 @@
     OOPUtil.headers = {};
 
     if (define) {
+        // TODO: Need to change the object returned so that only obj.extend is exposed
+        // and change tests accordingly
         define({
             Base: Base
         });
